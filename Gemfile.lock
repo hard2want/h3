@@ -126,7 +126,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara (>= 1.2.2)
+  capybara
   coffee-rails (~> 3.2.1)
   jquery-rails
   pg (>= 0.12.2)
