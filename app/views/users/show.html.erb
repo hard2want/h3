@@ -1,0 +1,15 @@
+<% provide(:title, "#{@user.first_name} #{@user.last_name}") %>
+<title><%= full_title(yield(:title)) %></title>
+
+<div class="row">
+  <aside class="span4">
+    <section>
+      <h1>
+        <%= gravatar_for @user %><%= @user.first_name %> <%= @user.last_name %>
+      </h1>
+      <h6>
+        <%= @user.email %>
+       </h6>
+    </section>
+  </aside>
+</div>
