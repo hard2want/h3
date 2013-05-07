@@ -79,7 +79,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: $gray;
+  color: $grayMediumLight;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -172,31 +172,31 @@ input, textarea, select, .uneditable-input {
 }
 
 /* ######################## */
-
+/* ---------------------- */
 .container {
  width: 710px;
 }
-
+/* ---------------------- */
 // body {
 //   background: #cff;
 // }
+// /* ---------------------- */
+// header {
+//   padding-top: 20px;
+// }
 
-header {
-  padding-top: 20px;
-}
+// header img {
+//   padding: 1em;
+//   background: #fff;
+// }
 
-header img {
-  padding: 1em;
-  background: #fff;
-}
-
-section {
-  margin-top: 1em;
-  font-size: 120%;
-  padding: 20px;
-  background: #fff;
-}
-
+// section {
+//   margin-top: 1em;
+//   font-size: 120%;
+//   padding: 20px;
+//   background: #fff;
+// }
+/* ---------------------- */
 // section h1 {
 //   font-size: 200%;
 // }
